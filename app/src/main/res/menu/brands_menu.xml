@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/toyotam"
+        android:title="Toyota"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/kiam"
+        android:title="Kia"
+        android:visible="true" />
+    <item
+        android:id="@+id/hyundam"
+        android:title="Hyundai"
+        android:visible="true" />
+
+</menu>

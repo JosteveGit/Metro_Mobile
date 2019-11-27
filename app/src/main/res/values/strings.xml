@@ -1,0 +1,313 @@
+<resources>
+    <string name="api_key">AIzaSyAfSY1U3MTxXz6zCBDtQb1gtUdy3RZiku0</string>
+
+    <string name="app_name">Metro Mobile</string>
+
+    <string name="title_forum">Forum</string>
+    <string name="title_news_room">News</string>
+    <string name="title_discover">Discover</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="title_activity_introduction">IntroductionActivity</string>
+    <string name="skip">Skip</string>
+    <string name="got_it">Got it</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="dummy_text">Hello, this is my profile.</string>
+    <string name="welcome">Free Diagnosis</string>
+    <string name="milestones">Convenient</string>
+    <string name="community">Fast</string>
+    <string name="get_investment">Get investment</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="welcome_back">Welcome Back,</string>
+    <string name="sign_in_to_continue">Hello there, Sign in to continue</string>
+    <string name="sign_up">Create Account</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Can\'t remember your password?</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="startup">Entrepreneur</string>
+    <string name="investor">Investor</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="password_reset_intructions">Enter the email you used to register and we will send you password reset instructions.</string>
+    <string name="forgot_header">Forgot</string>
+    <string name="password_header">Password</string>
+    <string name="new_account">New Account</string>
+    <string name="sign_up_to_continue">Sign up to become a member</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="already_a_member">You have an account?</string>
+    <string name="log_in">Log in</string>
+
+    <string name="emaill_require">Email is required</string>
+    <string name="password_require">Password is required</string>
+    <string name="email_invalid">Email is invalid</string>
+    <string name="no_network_connection">No network connectivity</string>
+    <string name="authenticating">Authenticating&#8230;</string>
+    <string name="error_text">An error occurred, please try again</string>
+    <string name="user_authenticated">User authenticated</string>
+    <string name="registration_successful">Registration successful</string>
+    <string name="sme_registration_successful">SME Registration successful</string>
+    <string name="processing">Processing&#8230;</string>
+    <string name="first_name_required">First name is required</string>
+    <string name="last_name_required">Last name is required</string>
+    <string name="title_activity_news">News</string>
+    <string name="title_activity_create_introduction">CreateIntroductionActivity</string>
+    <string name="dummy_text_2">Great to have you on board, we can\'t wait to work with you on such an amazing journey as we help you connect, network, grow and get investment.</string>
+    <string name="proceed">Proceed</string>
+    <string name="create_a_sme">Create an SME</string>
+    <string name="create_sme">Create SME</string>
+    <string name="i_will_do_it_later">I will do it later</string>
+    <string name="kindly_check_later">No news available at the moment kindly check later.</string>
+    <string name="no_news_available">No news available!</string>
+    <string name="page_under_construction">Page under construction</string>
+    <string name="title_share">Share</string>
+    <string name="title_save_later">Add to bookmarks</string>
+    <string name="title_bookmark">Bookmark</string>
+    <string name="branding">Branding</string>
+    <string name="slide_1_text">We offer free diagnosis.</string>
+    <string name="title_activity_bookmark">Bookmarks</string>
+    <string name="your_bookmarked_news_would_show_here">Your bookmarked news would show here</string>
+    <string name="title_activity_create_sme">CreateSMEActivity</string>
+    <string name="create_your_startup">Create your SME</string>
+    <string name="sme_name">Name your SME</string>
+    <string name="sme_description">Briefly describe your SME</string>
+    <string name="sme_name_required">Name field is required</string>
+    <string name="sme_desc_required">Description is required</string>
+    <string name="select_your_industry">Select your Industry</string>
+    <string name="all_rights_reserved">Copyright ©2018 Black Knights.</string>
+    <string name="add_your_team">Add your team</string>
+    <string name="confirm_title"> Confirm your Team members</string>
+    <string name="add_a_member">Add a member</string>
+    <string name="save">Save</string>
+    <string name="search_hint_text">Try \"Expanse\"</string>
+    <string name="browse_industries">Industries</string>
+    <string name="title_activity_search_result">Search Result</string>
+    <string name="title_activity_industry">IndustryActivity</string>
+    <string name="error_getting_industries">Error getting industries</string>
+    <string name="no_sme_found">No SME found!</string>
+    <string name="no_sme_registered_yet_for_this_industry">No SME registered yet for this Industry</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="user">User</string>
+    <string name="no_sme_found_matching_your_search_query">No SME found matching your search query</string>
+    <string name="no_user_found_matching_your_search_query">No user found matching your search query</string>
+    <string name="no_user_found">No user found!</string>
+    <string name="newest">Newest</string>
+    <string name="featured">Featured</string>
+    <string name="following">Following</string>
+    <string name="tags">Tags</string>
+    <string name="forum">Forum</string>
+
+    <string name="no_post_available">No post available!</string>
+    <string name="kindly_check_posts_later">No posts available at the moment, kindly check later.</string>
+    <string name="title_activity_forum_post">ForumPostActivity</string>
+    <string name="add">Add</string>
+    <string name="what_is_your_question">What is your question?</string>
+    <string name="dummy_forum_question">Adding fragment to fragment manager slows down your android system so as to disturb user experience?</string>
+    <string name="dummy_forum_answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="popular">Popular</string>
+    <string name="dummy_forum_question_2">Why couldn\'t Doctor Strange use his sling ring to get everyone back on earth after Thanos initially?</string>
+    <string name="dummy_time_stamp">4 hours ago</string>
+    <string name="jane_doe">Jane Doe</string>
+    <string name="_0">0</string>
+    <string name="add_comment">Add Comment</string>
+    <string name="add_a_comment">Add a comment&#8230;</string>
+    <string name="add_a_post">Add a post</string>
+    <string name="topic">Topic</string>
+    <string name="title_activity_post_content">PostContentActivity</string>
+    <string name="resources">Resources</string>
+
+    <string name="no_resources_available">No resources available!</string>
+    <string name="no_resources_at_the_moment">No resources at the moment, kindly check later</string>
+    <string name="posting">Posting&#8230;</string>
+    <string name="download">Download resources</string>
+    <string name="info_graphics">Info graphics</string>
+    <string name="jul_31">Jul 31</string>
+    <string name="not_available">Not available</string>
+
+    <string name="title_activity_resource">Resources</string>
+    <string name="view_video">View video</string>
+    <string name="downloading">Downloading file&#8230;</string>
+    <string name="about">About</string>
+    <string name="action_resources">Resources</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="sme_bio">SME Bio</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="you_haven_t_shared_answered_or_posted_anything_yet">You haven\'t shared, answered or posted anything yet.</string>
+    <string name="user_haven_t_shared_answered_or_posted_anything_yet">User hasn\'t shared, answered or posted anything yet.</string>
+    <string name="dash_loading">------------</string>
+    <string name="feeds_error">Error getting user feeds</string>
+    <string name="title_activity_edit_profile">Edit Profile</string>
+    <string name="change_profile_photo">Change profile photo</string>
+    <string name="max_exceeded">User about Max length exceeded</string>
+    <string name="sme_max_exceeded">SME about Max length exceeded</string>
+    <string name="update_success">Profile update successful</string>
+    <string name="dummy_text_long">Ecobank Transnational Incorporated is an independent regional banking company in West Africa. ETI provides wholesale, retail, investment and transaction banking products and services to government agencies, multinationals, corporate organizations, SMEs and individuals.</string>
+    <string name="team_amp_advisors">Team</string>
+    <string name="documents">Documents</string>
+    <string name="basic_information">Basic information</string>
+    <string name="stage">Stage</string>
+    <string name="location">Location</string>
+    <string name="founded">Founded</string>
+    <string name="employee">Employee</string>
+    <string name="requirements">Requirement</string>
+    <string name="website">Website</string>
+    <string name="pitch_deck">Pitch Deck</string>
+    <string name="no_member_has_been_added">No member has been added</string>
+    <string name="log_out">Log out</string>
+    <string name="manage_profile">Manage profile</string>
+    <string name="position_not_available">Position not available</string>
+    <string name="update_profile">Update profile</string>
+    <string name="general_information">General information</string>
+    <string name="bis_name_required">SME name is required</string>
+    <string name="pls_select_industry">Please select an industry</string>
+    <string name="update_pitch_deck">Update Pitch Deck</string>
+    <string name="select_a_file">Select a file&#8230;</string>
+    <string name="file_selected">File selected</string>
+    <string name="sme_location">City</string>
+    <string name="year_founded">Year founded</string>
+    <string name="no_of_employees">No. of employees</string>
+    <string name="invalid_file">Invalid file selection</string>
+    <string name="no_doc">No document available</string>
+    <string name="manage_team">Manage team</string>
+    <string name="update_team">Update team</string>
+    <string name="delete_member">Delete member</string>
+    <string name="edit_position">Edit position</string>
+    <string name="cont_delete_owner">Can\'t delete owner of SME</string>
+    <string name="position">Position</string>
+    <string name="public_text">Public</string>
+    <string name="account_text">Account</string>
+    <string name="payments">Payments</string>
+    <string name="support">Support</string>
+    <string name="report_a_problem">Report a problem</string>
+    <string name="help_center">Help center</string>
+    <string name="appearance">Appearance</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="general">General</string>
+    <string name="about_black_knights">About Black Knights</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="suggest_a_feature">Suggest a feature</string>
+    <string name="rate_us">Rate us</string>
+    <string name="third_party_notices">Third Party Notices</string>
+
+    <string name="font_size">Font size</string>
+    <string name="small">Small</string>
+    <string name="large">Large</string>
+    <string name="medium">Medium</string>
+    <string name="adjust_font_size">Adjust font size</string>
+
+    <string name="log_out_message">Logging out will remove all your Black Knights data and preferences from this device.</string>
+    <string name="log_out_title">Log out?</string>
+    <string name="next_badge">Next Badge</string>
+    <string name="badge_earned">Badge Earned</string>
+    <string name="action_search">Search</string>
+
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="current_password">Current password</string>
+    <string name="new_password">New password</string>
+    <string name="new_password_again">New password, again</string>
+    <string name="change">Change</string>
+    <string name="current_password_require">Current password is required</string>
+    <string name="new_password_require">New password is required</string>
+    <string name="confirm_password_require">Type new password again</string>
+    <string name="no_match_password">Passwords don\'t match</string>
+    <string name="saved_for_later">Added to bookmarks</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="notifications_admin_channel_name">Global channel</string>
+    <string name="notifications_admin_channel_description">Notifications sent from the app admin</string>
+    <string name="topic_general_info">general_information</string>
+    <string name="title_activity_about">About</string>
+    <string name="version">Version</string>
+    <string name="last_update">Last Update</string>
+    <string name="february_2018">January 2019.</string>
+    <string name="retry">Retry</string>
+    <string name="no_internet_connections_found">No internet connections found. Check your connection or try again</string>
+    <string name="whoops">Whoops!</string>
+    <string name="add_sme">Add SME</string>
+    <string name="name_amp_describe_your">Name &amp; Describe your \nSME</string>
+    <string name="sme">SME</string>
+
+    <string name="next">Next</string>
+    <string name="add_team_members_using_email_addresses">Add team members using email addresses.</string>
+    <string name="add_your_team_members">Add your Team members</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="subscribe_to_add_your_sme">Subscribe to add your SME</string>
+    <string name="sub_benefit_one">-All resources,materials,questions</string>
+    <string name="sub_benefit_two">-Chat and communicate with investors</string>
+    <string name="sub_benefit_three">-View all forums</string>
+    <string name="sub_benefit_four">-Pitch to investors</string>
+    <string name="sub_price">NGN 3,500/month</string>
+    <string name="sub_header">When you subscribe you have access to:</string>
+    <string name="add_your_sme">Add your SME</string>
+    <string name="select_your_sme">Select your SME \nIndustry</string>
+    <string name="industry">Industry</string>
+    <string name="card_number">Card Number</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="enter_your_card_details">Enter your card details</string>
+    <string name="make_payment">Make Payment</string>
+    <string name="cvv">CVV</string>
+    <string name="community_text">Get your vehicle serviced in just 30 minutes.</string>
+    <string name="investment_text">Checking off big and small business wins while growing your business.</string>
+    <string name="milestone_text">Mobile Service at your doorstep, you do not need to come to us, we\'ll come to you</string>
+    <string name="facebook_app_id">915021712196031</string>
+
+    <string name="fb_login_protocol_scheme">fb915021712196031</string>
+
+    <string name="or">OR</string>
+
+    <string name="continue_with_facebook">Continue with Facebook</string>
+
+    <string name="welcome_to_black_knights">Welcome to Metro Mobile</string>
+    <string name="lets_get_you_an_account">Let\'s get you an account</string>
+    <string name="done">Done</string>
+    <string name="dummy_no">30</string>
+    <string name="select_industry_subtext">Select the industry,sector that interest you most and we\'ll take it up from there!</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="placekey">AIzaSyDF3BfQaUkEra8HY-Lic3KfMu7YjN_jdhA</string>
+    <string name="preferred_session">Preferred Session</string>
+    <string name="exhaust">Exhaust</string>
+    <string name="fuel_systems">Fuel Systems</string>
+    <string name="brakes">Brakes</string>
+    <string name="battery_and_charging">Battery and Charging</string>
+    <string name="air_conditioning">Air Conditioning</string>
+    <string name="quick_service">Quick Service</string>
+    <string name="belts_and_hoses">Belts and Hoses</string>
+    <string name="service_types">Service Types</string>
+    <string name="select_car">Select Car</string>
+    <string name="oil_filter">Oil Filter</string>
+    <string-array name="carbrand_array">
+        <item>Select a Brand</item>
+        <item>Toyota</item>
+        <item>Kia</item>
+        <item>Hyundai</item>
+    </string-array>
+    <string-array name="toyota_array">
+        <item>Camry</item>
+        <item>Corolla</item>
+        <item>Yaris</item>
+    </string-array>
+    <string-array name="kia_array">
+        <item>Rio</item>
+        <item>Cerato</item>
+        <item>Optima</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="hyundai_array">
+        <item>Elantra</item>
+        <item>Accent</item>
+    </string-array>
+</resources>

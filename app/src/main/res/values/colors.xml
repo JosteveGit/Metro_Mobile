@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#2196F3</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="appwhite">#ffffff</color>
+    <color name="blue">#2196F3</color>
+    <color name="app_black">#000000</color>
+    <color name="page_indicator_color_inactive">#414345</color>
+    <color name="secondary_text_white">#B3FFFFFF</color>
+    <color name="sign_text_white">#80FFFFFF</color>
+    <color name="dark_accent">#bc8012</color>
+    <color name="app_light_grey">#e6e6e6</color>
+    <color name="app_black_text_color">#333333</color>
+
+    <color name="text_box_color">#E6FFFFFF</color>
+    <color name="color_control_normal">#818181</color>
+    <color name="red_800">#C62828</color>
+
+    <color name="divider">#C4C4C4</color>
+    <color name="search_hint_color">#787A7B</color>
+    <color name="search_icon_color">#818181</color>
+    <color name="primary_color_shade">#414141</color>
+
+    <color name="ripple_color">#26FFFFFF</color>
+
+    <color name="overlay_color_shade">#66FFFFFF</color>
+    <color name="overlay_color_shade_dark">#662C2F31</color>
+
+    <color name="text_box_color_on_white">#E62C2F31</color>
+    <color name="ripple_color_on_white">#262C2F31</color>
+    <color name="app_white_color_shade">#F5F5F5</color>
+    <color name="sign_text_dark">#802C2F31</color>
+    <color name="faded_bg_color">#4C4C4C</color>
+    <color name="llblue">#7AD2F8</color>
+    <color name="lblue">#31ACE4</color>
+    <color name="divider_color">#4D515973</color>
+    <color name="app_text_black_alpha">#99333333</color>
+</resources>

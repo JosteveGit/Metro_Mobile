@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".dashboard.ui.bookings.NewBookingFrag">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_car"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <org.angmarch.views.NiceSpinner
+        android:id="@+id/sp_select_car"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/service_types"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+    <GridLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2">
+        <CheckBox
+            android:id="@+id/cb_quickservice"
+            android:layout_marginRight="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quick_service"/>
+        <CheckBox
+            android:id="@+id/cb_ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/air_conditioning"/>
+        <CheckBox
+            android:id="@+id/cb_battery"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/battery_and_charging"/>
+        <CheckBox
+            android:id="@+id/cb_brake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/brakes"/>
+        <CheckBox
+            android:id="@+id/cb_belt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/belts_and_hoses"/>
+        <CheckBox
+            android:id="@+id/cb_exhaust"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exhaust"/>
+        <CheckBox
+            android:id="@+id/cb_fuel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fuel_systems"/>
+
+    </GridLayout>
+
+    <EditText
+        android:id="@+id/sp_select_day"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="What day would you like?"
+        android:textStyle="bold"
+        android:editable="false"
+    android:focusable="false"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/preferred_session"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <org.angmarch.views.NiceSpinner
+        android:id="@+id/sp_preferred_session"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.seatgeek.placesautocomplete.PlacesAutocompleteTextView
+        android:id="@+id/bk_pickupaddr"
+        android:layout_marginTop="10dp"
+        android:imeOptions="actionNext"
+        android:layout_width="match_parent"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:hint="Please enter your pickup address"
+        app:pacv_resultType="address"
+        android:layout_height="wrap_content"
+        app:pacv_googleMapsApiKey="@string/placekey"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/bk_contactpersonname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact Person Name"
+            android:imeOptions="actionNext" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/bk_personphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact Person Phone"
+            android:inputType="phone"
+            android:imeOptions="actionNext" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/bk_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:hint="Additional Information"
+            android:imeOptions="actionDone" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/book_now_btn"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_curve"
+        android:text="Book Now"
+        android:textColor="@color/appwhite"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="40dp"
+        android:layout_marginBottom="45dp"
+        android:paddingRight="40dp"/>
+</LinearLayout>
+</ScrollView>
